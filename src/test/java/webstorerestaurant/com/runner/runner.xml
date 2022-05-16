@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WebStoreRestaurant">
+
+
+    <test name="search">
+
+        <parameter name="searchValue" value="stainless work table"> </parameter>
+        <parameter name="keyWord" value="Table"> </parameter>
+
+        <classes>
+
+            <class name="webstorerestaurant.com.tests.HomePageTest"> </class>
+
+        </classes>
+
+    </test>
+
+</suite>
